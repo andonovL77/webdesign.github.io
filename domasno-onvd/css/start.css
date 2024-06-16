@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: linear-gradient(#ECE3CE , #739072);
+    padding-bottom: 50px;
+    height: 100%;
+}
+.body {
+    padding: 150px 0px 00px 000px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.body div{
+    text-align: left;
+}
+.first-text {
+    font-weight: bold;
+    font-style: oblique;
+    font-family: "Rubik";
+    font-size: 75px;
+    display: block;
+}
+.name {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Chivo;
+    display: block;
+    font-size: 60px;
+}
+.second-text {
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: Eczar;
+}
+.name i{
+    margin-left: 10px;
+    font-size: 80px;
+    color: #254336;
+}
+.btn {
+    color:#ECE3CE;
+    cursor: pointer;
+    display: block;
+    padding: 15px 100px 60px 100px;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 200px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Inter;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 70px;
+    text-align: center;
+}
+.btn-1 {
+    font-weight:bold;
+
+    svg {
+
+        height: 80px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    rect {
+        fill: none;
+        stroke: #3A4D39;
+        stroke-width: 8;
+        stroke-dasharray: 422, 0;
+        transition: all 0.35s linear;
+    }
+}
+
+.btn-1:hover {
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    rect {
+        stroke-width: 5;
+        stroke-dasharray: 15, 310;
+        stroke-dashoffset: 48;
+        transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+}
+.sidebar-last{
+    display: inline-block;
+    font-family: Inter;
+    align-content: end;
+    font-size: 25px;
+    margin-left: 55px;
+    color:#3A4D39;
+}
